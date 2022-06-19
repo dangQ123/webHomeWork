@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.foodtype ul{
+    list-style-type: none;
+}
+.head{
+    width: 100%;
+    height: 85px;
+    line-height: 85px;
+    position: absolute;
+}
+.head p{
+    font-size: 30px;
+    color: black;
+    font-family: cursive;
+    font-style: oblique ;
+    position: absolute;
+    left: 30px;
+}
+.somelink{
+    position: absolute;
+    width: 400px;
+    height: 85px;
+    right: 0px;
+}
+.somelink ul{
+    list-style-type: none;
+}
+.somelink ul li{
+    display: inline-block;
+    width: 100px;
+    height: 85px;
+    text-decoration: none;
+}
+.somelink ul li a{
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
+    opacity: 0.7;
+}
+.somelink ul li a:hover{
+    text-decoration: none;
+    font-size: 17px;
+    color: gray;
+    opacity: 1.0;
+}
+.mainpicture{
+    width: 100%;
+    height: 375px;
+    background: url(img/mainfoodpicture.png);
+    background-size: cover;
+    position: absolute;
+    top: 85px;
+}
+.graybox{
+    width: 100%;
+    height: 80px;
+    position: absolute;
+    top: 460px;
+    background-color: gray;
+}
+.manyfoods{
+    width: 100%;
+    height: 500px;
+    position: absolute;
+    top: 540px;
+    text-align: center;
+    background-color: beige;
+}
+.instroduction .mainp{
+    font-size: 30px;
+    color: red;
+    height: 50px;
+}
+.instroduction .otherp{
+    font-size: 15px;
+    color: #c4a699;
+    height: 130px;
+}
+.manyfoods .foodtype{
+    width: 800px;
+    height: 200px;
+    margin: 0 auto;
+    position: relative;
+}
+.manyfoods .foodtype li{
+    position: absolute;
+    display: inline-block;
+    width: 200px;
+    height: 150px;
+    top: 25px;
+}
+.manyfoods .foodtype li img{
+    width: 100%;
+    height: 100%;
+}
+.manyfoods .foodtype .food1{
+    left: 50px;
+}
+.manyfoods .foodtype .food2{
+    left: 300px;
+}
+.manyfoods .foodtype .food3{
+    right: 50px;
+}
+.tail{
+    width: 100%;
+    height: 10px;
+    position: absolute;
+    top: 1010px;
+    text-align: center;
+}
+.tail p{
+    font-style: oblique;
+    font-size: 10px;
+}

@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url(img/backgroundpic.jpeg);
+    background-size: cover;
+}
+.suspension{
+    position: fixed;
+    width: 130px;
+    height: 240px;
+    top: 200px;
+    left: 75px;
+    z-index: 2;
+}
+.suspension .avatar{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    top: 40px;
+    left: 25px;
+    border-radius: 100%;
+    background: url(../img/avatar.jpg);
+    background-size: cover;
+}
+.suspension .backtotop {
+    position: absolute;
+    width: 130px;
+    height: 58px;
+    bottom: 20px;
+    text-align: center;
+    border-top: 1px solid rgb(130, 126, 126);
+    border-bottom: 1px solid rgb(130, 126, 126);
+    line-height: 58px;
+}
+.suspension .backtotop a{
+    text-decoration: none;
+    color: black;
+    opacity: 0.5;
+    font-size: 17px;
+}
+.suspension .backtotop a:hover{
+    text-decoration: none;
+    color: black;
+    opacity: 0.9;
+    font-size: 18px;
+}
+.personalinfo{
+    width: 100%;
+    height: 400px;
+    position: relative;
+}
+.head{
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    position: relative;
+    border-bottom: 1px solid orange;
+}
+.head h1{
+    position: absolute;
+    display: block;
+    left: 50px;
+    font-style: oblique;
+}
+.personalinfo .info1{
+    position: absolute;
+    display: inline-block;
+    width: 450px;
+    height: 400px;
+    left: 250px;
+}
+.personalinfo .info2{
+    position: absolute;
+    display: inline-block;
+    width: 450px;
+    height: 400px;
+    right: 250px;
+}
+.personalinfo .info1 .info1cont{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    left: 75px;
+    top: 75px;
+}
+.personalinfo .info1 p{
+    margin-bottom: 20px;
+}
+.personalinfo .info2 .info2cont{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    left: 75px;
+    top: 75px;
+}
+.personalinfo .info2 p{
+    margin-bottom: 30px;
+}
+.skills{
+    width: 100%;
+    height: 500px;
+    position: relative;
+}
+.skills .studiedskills{
+    width: 100%;
+    height: 450px;
+    position: relative;
+}
+.skills .studiedskills .skill1{
+    position: absolute;
+    width: 350px;
+    height: 450px;
+    left: 20px;
+}   
+.skills .studiedskills .skill2{
+    position: absolute;
+    width: 350px;
+    height: 450px;
+    left: 390px;
+}
+.skills .studiedskills .skill3{
+    position: absolute;
+    width: 350px;
+    height: 450px;
+    right: 390px;
+}
+.skills .studiedskills .skill4{
+    position: absolute;
+    width: 350px;
+    height: 450px;
+    right: 20px;
+}
+.eduexperience{
+    width: 100%;
+    height: 500px;
+    position: relative;
+}
+.eduexperience .educont{
+    width: 100%;
+    height: 450px;
+    position: relative;
+}
+.eduexperience .educont .boxcont{
+    width: 800px;
+    height: 450px;
+    margin: 0 auto;
+    position: relative;
+}
+.studiedskills .skill1 .img{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background: url(img/html.png);
+    background-size: cover;
+    top: 20px;
+    left: 125px;
+}
+.studiedskills .skill2 .img{
+    position: absolute;
+    width: 100px;
+    height: 110px;
+    background: url(img/c++.png);
+    background-size: cover;
+    top: 20px;
+    left: 125px;
+}
+.studiedskills .skill3 .img{
+    position: absolute;
+    width: 100px;
+    height: 192px;
+    background: url(img/java.png);
+    background-size: cover;
+    top: 20px;
+    left: 125px;
+}
+.studiedskills .skill4 .img{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background: url(img/python.png);
+    background-size: cover;
+    top: 20px;
+    left: 125px;
+}
+.studiedskills p{
+    position: absolute;
+    width: 250px;
+    height: 100px;
+    bottom: 30px;
+    left: 50px;
+    text-align: center;
+    line-height: 100px;
+}
+.educont .boxcont ul{
+    list-style-type: none;
+}
+.educont .boxcont ul li{
+    margin-top: 50px;
+    margin-left: 30px;
+}
+.educont .boxcont .tail{
+    width: 100px;
+    font-style: oblique;
+    font-size: 10px;
+    position: absolute;
+    bottom: 5px;
+    left: 350px;
+    text-align: center;
+}
